@@ -5,7 +5,7 @@ def numbers(num):
         n += 1
 
 generator  = numbers(5)
-
+import pdb; pdb.set_trace()
 for i in generator:
     print(i)
 
